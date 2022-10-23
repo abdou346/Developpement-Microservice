@@ -6,4 +6,6 @@ import com.activite2.accountservice.entities.Bankaccount;
 
 public interface AccountService {
    BankaccountResponseDTO addAccount(BankaccountRequestDTO bankaccountDTO);
-        }
+
+    BankaccountResponseDTO updateAccount(String id, BankaccountRequestDTO bankaccountDTO);
+}
