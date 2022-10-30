@@ -10,3 +10,7 @@
 8. Exposer une API Restful en utilisant Spring Data Rest en exploitant des projections
 9. Créer les DTOs et Mappers
 10. Créer la couche Service (métier) et du micro service
+
+##  Conception et architecture :
+
+![accountservice](https://user-images.githubusercontent.com/101510983/198897988-5066fe78-1764-4de5-b94f-e8206029f69c.png)
