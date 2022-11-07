@@ -16,3 +16,18 @@
 
 
 ![accountservice](https://user-images.githubusercontent.com/101510983/198897988-5066fe78-1764-4de5-b94f-e8206029f69c.png)
+
+###Bankaccount :
+'''@Entity
+@Data @NoArgsConstructor @AllArgsConstructor @Builder
+public class Bankaccount {
+    @Id
+    private String id;
+    private Date createdAt;
+    private Double balance;
+    private String currency;
+    @Enumerated(EnumType.STRING )
+    private AccountType type;@ManyToOne
+    private Customer customer;
+
+}'''
