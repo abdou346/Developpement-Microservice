@@ -12,5 +12,7 @@
 10. Créer la couche Service (métier) et du micro service
 
 ##  Conception et architecture :
+![archi](https://user-images.githubusercontent.com/101510983/200371852-06eaf710-4b2a-41c2-897c-f30cdbb91233.png)
+
 
 ![accountservice](https://user-images.githubusercontent.com/101510983/198897988-5066fe78-1764-4de5-b94f-e8206029f69c.png)
