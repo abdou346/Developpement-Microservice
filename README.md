@@ -86,8 +86,7 @@ public class AccountRestController {
         bankAccountRepository.deleteById(id);
     }
     
- ```
-    ![image](https://user-images.githubusercontent.com/101510983/200377077-767dd0d3-e3fe-42cf-a5b3-76831def8027.png)
+  ```
 
 ### RestController:
-
+![image](https://user-images.githubusercontent.com/101510983/200377077-767dd0d3-e3fe-42cf-a5b3-76831def8027.png)
