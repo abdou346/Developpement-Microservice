@@ -90,3 +90,23 @@ public class AccountRestController {
 
 ### RestController:
 ![image](https://user-images.githubusercontent.com/101510983/200377077-767dd0d3-e3fe-42cf-a5b3-76831def8027.png)
+
+### Swaggers :
+![image](https://user-images.githubusercontent.com/101510983/200378561-66c0e321-677f-4f89-9692-b59b957003a9.png)
+
+### Projections :
+
+```java
+@Projection(types=Bankaccount.class,name = "p1")
+public interface AccountProjection {
+    public String getId();
+    public AccountType getType();
+    public Double getBalance();
+}
+```
+![image](https://user-images.githubusercontent.com/101510983/200379436-cbb52278-cf2c-4a51-a61a-d42a34e6a2db.png)
+
+### Graphql :
+![image](https://user-images.githubusercontent.com/101510983/200379608-4de9b196-0144-4ad0-ae01-1df859895d3e.png)
+
+
